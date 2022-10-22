@@ -5,4 +5,4 @@ from hospitalBackend.models.usuario import Usuario
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:  #Guia para que el framework sepa cómo moverse
         model = Usuario
-        fields= ['id', 'rol', 'username', 'password', 'apellido', 'email', 'celular', 'direccion']
+        fields= ['id', 'rol', 'username', 'password', 'apellido', 'e_mail', 'celular', 'direccion']
